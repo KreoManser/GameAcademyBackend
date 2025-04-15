@@ -1,0 +1,61 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+dist
+tmp
+out-tsc
+/envs
+/apps/mongo
+<<<<<<< HEAD
+/apps/rabbit
+=======
+/apps/minio
+/apps/rabbit
+/apps/duplicate-checker/app/__pycache__
+/apps/duplicate-checker/app/venv
+/apps/model-service
+>>>>>>> 621d7fe (Added new endpoints and microservices + mocks objects)
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+.nx/cache
+.nx/workspace-data
+<<<<<<< HEAD
+=======
+.qodo
+
+# Next.js
+.next
+out
+>>>>>>> 621d7fe (Added new endpoints and microservices + mocks objects)
