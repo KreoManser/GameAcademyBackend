@@ -10,7 +10,7 @@ import { ProjectRepository } from './repos/project.repository';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true, envFilePath: 'envs/.portfolio.env' }),
+    ConfigModule.forRoot({ isGlobal: true, envFilePath: 'envs/.project.env' }),
     RMQModule.forRootAsync(getRMQConfig()),
     MongooseModule.forRootAsync(getMongoConfig()),
     MongooseModule.forFeature([{ name: Project.name, schema: ProjectSchema }]),
